@@ -1,0 +1,338 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+ADR	C:\user\DK_PIC\DK_USB.h	231;"	m	line:231
+AbstractControlManagement	C:\user\DK_PIC\DK_USB.c	41;"	m	line:41	file:
+Address	C:\user\DK_PIC\DK_USB.h	269;"	m	line:269
+Anywhere	C:\user\DK_PIC\DK_Specific.h	66;"	m	line:66
+BLOCKED	C:\user\DK_PIC\DK_Core.h	48;"	e	line:48
+BufferDescriptorTable	C:\user\DK_PIC\DK_USB.c	167;"	v	line:167	file:
+Byte	C:\user\DK_PIC\DK_USB.h	279;"	m	line:279
+CNT	C:\user\DK_PIC\DK_USB.h	230;"	m	line:230
+CallManagement	C:\user\DK_PIC\DK_USB.c	43;"	m	line:43	file:
+Configuration	C:\user\DK_PIC\DK_USB.c	36;"	m	line:36	file:
+Count	C:\user\DK_PIC\DK_Core.c	80;"	l	line:80
+Count	C:\user\DK_PIC\DK_Specific.c	312;"	l	line:312
+Count	C:\user\DK_PIC\main.c	111;"	l	line:111
+Count	C:\user\DK_PIC\main.c	135;"	l	line:135
+Count	C:\user\DK_PIC\main.c	159;"	l	line:159
+Count	C:\user\DK_PIC\main.c	257;"	l	line:257
+Count	C:\user\DK_PIC\main.c	313;"	l	line:313
+DEAD	C:\user\DK_PIC\DK_Core.h	41;"	e	line:41
+DK_Assert::(a);	C:\user\DK_PIC\DK_Specific.h	116;"	d	line:116
+DK_Assert::(a);\	C:\user\DK_PIC\DK_Specific.h	107;"	d	line:107
+DK_CORE_H	C:\user\DK_PIC\DK_Core.h	9;"	d	line:9
+DK_CalculatePrescaleAndModulo	C:\user\DK_PIC\DK_Specific.c	87;"	f	line:87	signature:( double Duration, unsigned char * pPrescaler, unsigned short * pModulo )
+DK_CalculatePrescaleAndModulo	C:\user\DK_PIC\DK_Specific.h	14;"	p	line:14	signature:( double Duration, unsigned char * pPrescaler, unsigned short * pModulo )
+DK_ConfigureSchedulerClock	C:\user\DK_PIC\DK_Specific.c	185;"	f	line:185	signature:( unsigned char Prescaler, unsigned short Modulo )
+DK_ConfigureSchedulerClock	C:\user\DK_PIC\DK_Specific.h	17;"	p	line:17	signature:( unsigned char Prescaler, unsigned short Modulo )
+DK_ConfigureTaskState	C:\user\DK_PIC\DK_Core.c	283;"	f	line:283	signature:( unsigned char Identity, DK_TaskState NewState )
+DK_ConfigureTaskState	C:\user\DK_PIC\DK_Core.h	65;"	p	line:65	signature:( unsigned char Identity, DK_TaskState NewState )
+DK_DEBUG_MODE::0	C:\user\DK_PIC\DK_Specific.h	104;"	d	line:104
+DK_DangerousPointer	C:\user\DK_PIC\DK_Specific.h	69;"	t	line:69
+DK_DeregisterTask	C:\user\DK_PIC\DK_Core.c	239;"	f	line:239	file:	signature:(unsigned char Identity)
+DK_DeregisterTask	C:\user\DK_PIC\DK_Core.c	31;"	p	line:31	file:	signature:(unsigned char Identity)
+DK_DisableInterrupts::;_asm\	C:\user\DK_PIC\DK_Specific.h	126;"	d	line:126
+DK_DiscardStack::;_asm\	C:\user\DK_PIC\DK_Specific.h	96;"	d	line:96
+DK_EnableInterrupts::;_asm\	C:\user\DK_PIC\DK_Specific.h	122;"	d	line:122
+DK_FAILURE::(-1)	C:\user\DK_PIC\DK_Core.h	20;"	d	line:20
+DK_GLOBAL_H	C:\user\DK_PIC\DK_Global.h	9;"	d	line:9
+DK_GetNumberOfLivingTasks	C:\user\DK_PIC\DK_Core.c	358;"	f	line:358	signature:(void)
+DK_GetNumberOfLivingTasks	C:\user\DK_PIC\DK_Core.h	68;"	p	line:68	signature:(void)
+DK_GetQuantumCount	C:\user\DK_PIC\DK_Core.c	367;"	f	line:367	signature:(void)
+DK_GetQuantumCount	C:\user\DK_PIC\DK_Core.h	69;"	p	line:69	signature:(void)
+DK_GetRunningTaskIdentity	C:\user\DK_PIC\DK_Core.c	349;"	f	line:349	signature:(void)
+DK_GetRunningTaskIdentity	C:\user\DK_PIC\DK_Core.h	67;"	p	line:67	signature:(void)
+DK_ISR	C:\user\DK_PIC\main.c	21;"	f	line:21
+DK_ISR_SchedulerClock	C:\user\DK_PIC\DK_ISR.asm	226;"	l	line:226
+DK_IdleTask	C:\user\DK_PIC\DK_Core.c	381;"	f	line:381	signature:(void)
+DK_IdleTask	C:\user\DK_PIC\DK_Core.h	117;"	p	line:117	signature:(void)
+DK_IdleTaskHook	C:\user\DK_PIC\DK_Specific.h	26;"	p	line:26	signature:(void)
+DK_IdleTaskHook	C:\user\DK_PIC\main.c	13;"	f	line:13	signature:(void)
+DK_InitializeKernel	C:\user\DK_PIC\DK_Core.c	33;"	f	line:33	signature:(void)
+DK_InitializeKernel	C:\user\DK_PIC\DK_Core.h	63;"	p	line:63	signature:(void)
+DK_InitializeScheduler	C:\user\DK_PIC\DK_Core.c	107;"	f	line:107	signature:(void)
+DK_InitializeScheduler	C:\user\DK_PIC\DK_Core.h	118;"	p	line:118	signature:(void)
+DK_InitializeSchedulerClock	C:\user\DK_PIC\DK_Specific.c	11;"	f	line:11	signature:(void)
+DK_InitializeSchedulerClock	C:\user\DK_PIC\DK_Specific.h	13;"	p	line:13	signature:(void)
+DK_InitializeTCBSegment	C:\user\DK_PIC\DK_Core.c	71;"	f	line:71	signature:(void)
+DK_InitializeTCBSegment	C:\user\DK_PIC\DK_Core.h	116;"	p	line:116	signature:(void)
+DK_InitializeTask	C:\user\DK_PIC\DK_Specific.c	296;"	f	line:296	signature:( DK_TaskAddress Task, DK_TaskState State, unsigned QuantumShare )
+DK_InitializeTask	C:\user\DK_PIC\DK_Specific.h	22;"	p	line:22	signature:( DK_TaskAddress Task, DK_TaskState State, unsigned QuantumShare )
+DK_InvokeScheduler	C:\user\DK_PIC\DK_Specific.c	229;"	f	line:229	signature:(void)
+DK_InvokeScheduler	C:\user\DK_PIC\DK_Specific.h	19;"	p	line:19	signature:(void)
+DK_MASTER_STACK_SIZE::0x300	C:\user\DK_PIC\DK_Specific.h	84;"	d	line:84
+DK_MASTER_STACK_START::0x100	C:\user\DK_PIC\DK_Specific.h	81;"	d	line:81
+DK_MAXIMUM_TASKS::(5)	C:\user\DK_PIC\DK_Specific.h	77;"	d	line:77
+DK_QUANTUM::(0.001)	C:\user\DK_PIC\DK_Specific.h	88;"	d	line:88
+DK_QuantumTrigger	C:\user\DK_PIC\DK_Specific.h	25;"	p	line:25	signature:(unsigned QuantumCount)
+DK_QuantumTrigger	C:\user\DK_PIC\main.c	37;"	f	line:37	signature:(unsigned QuantumCount)
+DK_RegisterTask	C:\user\DK_PIC\DK_Core.c	168;"	f	line:168	file:	signature:( unsigned char Identity )
+DK_RegisterTask	C:\user\DK_PIC\DK_Core.c	30;"	p	line:30	file:	signature:(unsigned char Identity)
+DK_ResetQuantumCount	C:\user\DK_PIC\DK_Core.c	373;"	f	line:373	signature:(void)
+DK_ResetQuantumCount	C:\user\DK_PIC\DK_Core.h	70;"	p	line:70	signature:(void)
+DK_RestoreContext	C:\user\DK_PIC\DK_ISR.asm	142;"	l	line:142
+DK_RestoreContext_Continue	C:\user\DK_PIC\DK_ISR.asm	165;"	l	line:165
+DK_SPECIFIC_H	C:\user\DK_PIC\DK_Specific.h	10;"	d	line:10
+DK_SUCCESS::(1)	C:\user\DK_PIC\DK_Core.h	17;"	d	line:17
+DK_SYSTEM_CLOCK_HZ::20000000	C:\user\DK_PIC\DK_Specific.h	91;"	d	line:91
+DK_SaveContext	C:\user\DK_PIC\DK_ISR.asm	45;"	l	line:45
+DK_SaveContext_Continue	C:\user\DK_PIC\DK_ISR.asm	96;"	l	line:96
+DK_Scheduler	C:\user\DK_PIC\DK_Core.c	126;"	f	line:126	signature:(void)
+DK_Scheduler	C:\user\DK_PIC\DK_Core.h	115;"	p	line:115	signature:(void)
+DK_StartKernel	C:\user\DK_PIC\DK_Core.c	56;"	f	line:56	signature:(void)
+DK_StartKernel	C:\user\DK_PIC\DK_Core.h	64;"	p	line:64	signature:(void)
+DK_StartScheduler	C:\user\DK_PIC\DK_Specific.c	252;"	f	line:252	signature:(void)
+DK_StartScheduler	C:\user\DK_PIC\DK_Specific.h	20;"	p	line:20	signature:(void)
+DK_StopScheduler	C:\user\DK_PIC\DK_Specific.c	274;"	f	line:274	signature:(void)
+DK_StopScheduler	C:\user\DK_PIC\DK_Specific.h	21;"	p	line:21	signature:(void)
+DK_TCB	C:\user\DK_PIC\DK_Core.h	78;"	s	line:78
+DK_TCB	C:\user\DK_PIC\DK_Core.h	93;"	t	line:93
+DK_TaskAddress	C:\user\DK_PIC\DK_Core.h	60;"	t	line:60
+DK_TaskState	C:\user\DK_PIC\DK_Core.h	55;"	t	line:55
+DK_USB_GetDescriptor	C:\user\DK_PIC\DK_USB.c	189;"	p	line:189	file:	signature:( DK_DangerousPointer * pdPacketData, unsigned char * Length )
+DK_USB_GetDescriptor	C:\user\DK_PIC\DK_USB.c	419;"	f	line:419	file:	signature:( DK_DangerousPointer * pdPacketData, unsigned char * Length )
+DK_USB_H	C:\user\DK_PIC\DK_USB.h	3;"	d	line:3
+DK_USB_ISR	C:\user\DK_PIC\DK_USB.c	495;"	f	line:495	signature:(void)
+DK_USB_ISR	C:\user\DK_PIC\DK_USB.h	289;"	p	line:289	signature:(void)
+DK_USB_Initialize	C:\user\DK_PIC\DK_USB.c	258;"	f	line:258	signature:(void)
+DK_USB_Initialize	C:\user\DK_PIC\DK_USB.h	284;"	p	line:284	signature:(void)
+DK_USB_Reset	C:\user\DK_PIC\DK_USB.c	188;"	p	line:188	file:	signature:(void)
+DK_USB_Reset	C:\user\DK_PIC\DK_USB.c	207;"	f	line:207	file:	signature:(void)
+DK_USB_SendCharacter	C:\user\DK_PIC\DK_USB.c	338;"	f	line:338	signature:( unsigned char Character )
+DK_USB_SendCharacter	C:\user\DK_PIC\DK_USB.h	285;"	p	line:285	signature:( unsigned char Character )
+DK_USB_SendPacket	C:\user\DK_PIC\DK_USB.c	363;"	f	line:363	signature:( USB_BufferDescriptor * BufferDescriptor, DK_DangerousPointer pdPacketData, unsigned char bLength )
+DK_USB_SendPacket	C:\user\DK_PIC\DK_USB.h	286;"	p	line:286	signature:( USB_BufferDescriptor * BufferDescriptor, DK_DangerousPointer pdPacketData, unsigned char bLength )
+DK_USB_StandardRequestHandler	C:\user\DK_PIC\DK_USB.c	191;"	p	line:191	file:	signature:(void)
+DK_USB_StandardRequestHandler	C:\user\DK_PIC\DK_USB.c	592;"	f	line:592	file:	signature:(void)
+DK_USB_Start	C:\user\DK_PIC\DK_USB.c	193;"	f	line:193	signature:(void)
+DK_USB_Start	C:\user\DK_PIC\DK_USB.h	283;"	p	line:283	signature:(void)
+DORMANT	C:\user\DK_PIC\DK_Core.h	53;"	e	line:53
+DataTransferDirection	C:\user\DK_PIC\DK_USB.h	251;"	m	line:251
+DescriptorIndex	C:\user\DK_PIC\DK_USB.h	254;"	m	line:254
+DescriptorType	C:\user\DK_PIC\DK_USB.h	255;"	m	line:255
+DeviceDescriptor	C:\user\DK_PIC\DK_USB.c	15;"	v	line:15	file:
+DeviceStringTable	C:\user\DK_PIC\DK_USB.c	180;"	v	line:180	file:
+Endpoint0	C:\user\DK_PIC\DK_USB.c	45;"	m	line:45	file:
+Endpoint1	C:\user\DK_PIC\DK_USB.c	49;"	m	line:49	file:
+FALSE::0	C:\user\DK_PIC\DK_Core.h	30;"	d	line:30
+Header	C:\user\DK_PIC\DK_USB.c	40;"	m	line:40	file:
+Identity	C:\user\DK_PIC\DK_Core.h	84;"	m	line:84	struct:DK_TCB
+InitializeLEDs	C:\user\DK_PIC\main.c	73;"	f	line:73	signature:(void)
+InitializeLEDs	C:\user\DK_PIC\main.h	17;"	p	line:17	signature:(void)
+InitializeNESController	C:\user\DK_PIC\main.c	216;"	f	line:216	signature:(void)
+InitializeNESController	C:\user\DK_PIC\main.h	26;"	p	line:26	signature:(void)
+Input	C:\user\DK_PIC\main.c	298;"	l	line:298
+Interface0	C:\user\DK_PIC\DK_USB.c	38;"	m	line:38	file:
+Interface1	C:\user\DK_PIC\DK_USB.c	47;"	m	line:47	file:
+IsROMPointer	C:\user\DK_PIC\DK_Specific.h	68;"	m	line:68
+LED0::(PORTDbits.RD0)	C:\user\DK_PIC\main.h	6;"	d	line:6
+LED1::(PORTDbits.RD1)	C:\user\DK_PIC\main.h	7;"	d	line:7
+LED2::(PORTDbits.RD2)	C:\user\DK_PIC\main.h	8;"	d	line:8
+LED3::(PORTDbits.RD3)	C:\user\DK_PIC\main.h	9;"	d	line:9
+LED4::(PORTDbits.RD4)	C:\user\DK_PIC\main.h	10;"	d	line:10
+LED5::(PORTDbits.RD5)	C:\user\DK_PIC\main.h	11;"	d	line:11
+LED6::(PORTDbits.RD6)	C:\user\DK_PIC\main.h	12;"	d	line:12
+LED7::(PORTDbits.RD7)	C:\user\DK_PIC\main.h	13;"	d	line:13
+Length	C:\user\DK_PIC\DK_USB.c	601;"	l	line:601
+MAIN_H	C:\user\DK_PIC\main.h	2;"	d	line:2
+Modulo	C:\user\DK_PIC\DK_Specific.c	106;"	l	line:106
+Modulo	C:\user\DK_PIC\DK_Specific.c	22;"	l	line:22
+NESControllerManager	C:\user\DK_PIC\main.c	289;"	f	line:289	signature:(void)
+NESControllerManager	C:\user\DK_PIC\main.h	28;"	p	line:28	signature:(void)
+NES_Clock::PORTBbits.RB1	C:\user\DK_PIC\main.h	33;"	d	line:33
+NES_DataStream::PORTBbits.RB2	C:\user\DK_PIC\main.h	34;"	d	line:34
+NES_IsParallelLoad::PORTBbits.RB0	C:\user\DK_PIC\main.h	32;"	d	line:32
+Next	C:\user\DK_PIC\DK_Core.h	91;"	m	line:91	struct:DK_TCB
+NumberOfLivingTasks	C:\user\DK_PIC\DK_Core.c	23;"	v	line:23	file:
+Prescaler	C:\user\DK_PIC\DK_Specific.c	105;"	l	line:105
+Prescaler	C:\user\DK_PIC\DK_Specific.c	20;"	l	line:20
+Prev	C:\user\DK_PIC\DK_Core.h	92;"	m	line:92	struct:DK_TCB
+QuantumCount	C:\user\DK_PIC\DK_Core.c	24;"	v	line:24	file:
+QuantumShare	C:\user\DK_PIC\DK_Core.c	135;"	l	line:135	file:
+QuantumShare	C:\user\DK_PIC\DK_Core.h	86;"	m	line:86	struct:DK_TCB
+READY	C:\user\DK_PIC\DK_Core.h	43;"	e	line:43
+RUNNING	C:\user\DK_PIC\DK_Core.h	46;"	e	line:46
+ReadNESController	C:\user\DK_PIC\main.c	237;"	f	line:237	signature:(void)
+ReadNESController	C:\user\DK_PIC\main.h	27;"	p	line:27	signature:(void)
+Recipient	C:\user\DK_PIC\DK_USB.h	249;"	m	line:249
+RequestIsSupported	C:\user\DK_PIC\DK_USB.c	602;"	l	line:602
+Result	C:\user\DK_PIC\DK_Core.c	114;"	l	line:114
+Result	C:\user\DK_PIC\DK_Core.c	137;"	l	line:137
+Result	C:\user\DK_PIC\DK_Core.c	41;"	l	line:41
+Result	C:\user\DK_PIC\DK_Core.c	78;"	l	line:78
+Result	C:\user\DK_PIC\DK_Specific.c	104;"	l	line:104
+Result	C:\user\DK_PIC\DK_Specific.c	18;"	l	line:18
+Result	C:\user\DK_PIC\DK_USB.c	347;"	l	line:347
+Result	C:\user\DK_PIC\DK_USB.c	381;"	l	line:381
+Result	C:\user\DK_PIC\DK_USB.c	433;"	l	line:433
+Result	C:\user\DK_PIC\main.c	190;"	l	line:190
+Result	C:\user\DK_PIC\main.c	256;"	l	line:256
+Result	C:\user\DK_PIC\main.c	297;"	l	line:297
+Result	C:\user\DK_PIC\main.c	312;"	l	line:312
+STAT	C:\user\DK_PIC\DK_USB.h	229;"	m	line:229
+STKPTR	C:\user\DK_PIC\DK_Specific.h	99;"	v	line:99
+SetupPacket	C:\user\DK_PIC\DK_USB.c	50;"	v	line:50	file:
+StackPointer	C:\user\DK_PIC\DK_Core.h	80;"	m	line:80	struct:DK_TCB
+State	C:\user\DK_PIC\DK_Core.h	88;"	m	line:88	struct:DK_TCB
+TCBSegment	C:\user\DK_PIC\DK_Core.c	15;"	v	line:15
+TRUE::1	C:\user\DK_PIC\DK_Core.h	23;"	d	line:23
+TaskIdentity	C:\user\DK_PIC\DK_Specific.c	311;"	l	line:311
+TaskNumber	C:\user\DK_PIC\main.c	189;"	l	line:189	file:
+TaskStackSize	C:\user\DK_PIC\DK_Specific.c	315;"	l	line:315
+Task_Test0	C:\user\DK_PIC\main.c	107;"	f	line:107	signature:(void)
+Task_Test0	C:\user\DK_PIC\main.h	20;"	p	line:20	signature:(void)
+Task_Test1	C:\user\DK_PIC\main.c	131;"	f	line:131	signature:(void)
+Task_Test1	C:\user\DK_PIC\main.h	21;"	p	line:21	signature:(void)
+Task_Test2	C:\user\DK_PIC\main.c	155;"	f	line:155	signature:(void)
+Task_Test2	C:\user\DK_PIC\main.h	22;"	p	line:22	signature:(void)
+Task_Test3	C:\user\DK_PIC\main.c	185;"	f	line:185	signature:(void)
+Task_Test3	C:\user\DK_PIC\main.h	23;"	p	line:23	signature:(void)
+Type	C:\user\DK_PIC\DK_USB.h	250;"	m	line:250
+USB_BufferDescriptor	C:\user\DK_PIC\DK_USB.h	232;"	t	line:232
+USB_CDC_CC_CDC::0x02	C:\user\DK_PIC\DK_USB.h	49;"	d	line:49
+USB_CDC_CC_INTERFACE::0x02	C:\user\DK_PIC\DK_USB.h	54;"	d	line:54
+USB_CDC_CS_ENDPOINT::0x25	C:\user\DK_PIC\DK_USB.h	45;"	d	line:45
+USB_CDC_CS_INTERFACE::0x24	C:\user\DK_PIC\DK_USB.h	44;"	d	line:44
+USB_CDC_FD_AbstractControlManagement	C:\user\DK_PIC\DK_USB.h	210;"	t	line:210
+USB_CDC_FD_CallManagement	C:\user\DK_PIC\DK_USB.h	199;"	t	line:199
+USB_CDC_FD_Header	C:\user\DK_PIC\DK_USB.h	187;"	t	line:187
+USB_CDC_FD_Union	C:\user\DK_PIC\DK_USB.h	222;"	t	line:222
+USB_ENDPOINT::(Length)\	C:\user\DK_PIC\DK_USB.h	234;"	d	line:234
+USB_ENDPOINT_ADDRESS_0I::0x80	C:\user\DK_PIC\DK_USB.h	59;"	d	line:59
+USB_ENDPOINT_ADDRESS_0O::0x00	C:\user\DK_PIC\DK_USB.h	58;"	d	line:58
+USB_ENDPOINT_ADDRESS_10I::0x8A	C:\user\DK_PIC\DK_USB.h	79;"	d	line:79
+USB_ENDPOINT_ADDRESS_10O::0x0A	C:\user\DK_PIC\DK_USB.h	78;"	d	line:78
+USB_ENDPOINT_ADDRESS_11I::0x8B	C:\user\DK_PIC\DK_USB.h	81;"	d	line:81
+USB_ENDPOINT_ADDRESS_11O::0x0B	C:\user\DK_PIC\DK_USB.h	80;"	d	line:80
+USB_ENDPOINT_ADDRESS_12I::0x8C	C:\user\DK_PIC\DK_USB.h	83;"	d	line:83
+USB_ENDPOINT_ADDRESS_12O::0x0C	C:\user\DK_PIC\DK_USB.h	82;"	d	line:82
+USB_ENDPOINT_ADDRESS_13I::0x8D	C:\user\DK_PIC\DK_USB.h	85;"	d	line:85
+USB_ENDPOINT_ADDRESS_13O::0x0D	C:\user\DK_PIC\DK_USB.h	84;"	d	line:84
+USB_ENDPOINT_ADDRESS_14I::0x8E	C:\user\DK_PIC\DK_USB.h	87;"	d	line:87
+USB_ENDPOINT_ADDRESS_14O::0x0E	C:\user\DK_PIC\DK_USB.h	86;"	d	line:86
+USB_ENDPOINT_ADDRESS_15I::0x8F	C:\user\DK_PIC\DK_USB.h	89;"	d	line:89
+USB_ENDPOINT_ADDRESS_15O::0x0F	C:\user\DK_PIC\DK_USB.h	88;"	d	line:88
+USB_ENDPOINT_ADDRESS_1I::0x81	C:\user\DK_PIC\DK_USB.h	61;"	d	line:61
+USB_ENDPOINT_ADDRESS_1O::0x01	C:\user\DK_PIC\DK_USB.h	60;"	d	line:60
+USB_ENDPOINT_ADDRESS_2I::0x82	C:\user\DK_PIC\DK_USB.h	63;"	d	line:63
+USB_ENDPOINT_ADDRESS_2O::0x02	C:\user\DK_PIC\DK_USB.h	62;"	d	line:62
+USB_ENDPOINT_ADDRESS_3I::0x83	C:\user\DK_PIC\DK_USB.h	65;"	d	line:65
+USB_ENDPOINT_ADDRESS_3O::0x03	C:\user\DK_PIC\DK_USB.h	64;"	d	line:64
+USB_ENDPOINT_ADDRESS_4I::0x84	C:\user\DK_PIC\DK_USB.h	67;"	d	line:67
+USB_ENDPOINT_ADDRESS_4O::0x04	C:\user\DK_PIC\DK_USB.h	66;"	d	line:66
+USB_ENDPOINT_ADDRESS_5I::0x85	C:\user\DK_PIC\DK_USB.h	69;"	d	line:69
+USB_ENDPOINT_ADDRESS_5O::0x05	C:\user\DK_PIC\DK_USB.h	68;"	d	line:68
+USB_ENDPOINT_ADDRESS_6I::0x86	C:\user\DK_PIC\DK_USB.h	71;"	d	line:71
+USB_ENDPOINT_ADDRESS_6O::0x06	C:\user\DK_PIC\DK_USB.h	70;"	d	line:70
+USB_ENDPOINT_ADDRESS_7I::0x87	C:\user\DK_PIC\DK_USB.h	73;"	d	line:73
+USB_ENDPOINT_ADDRESS_7O::0x07	C:\user\DK_PIC\DK_USB.h	72;"	d	line:72
+USB_ENDPOINT_ADDRESS_8I::0x88	C:\user\DK_PIC\DK_USB.h	75;"	d	line:75
+USB_ENDPOINT_ADDRESS_8O::0x08	C:\user\DK_PIC\DK_USB.h	74;"	d	line:74
+USB_ENDPOINT_ADDRESS_9I::0x89	C:\user\DK_PIC\DK_USB.h	77;"	d	line:77
+USB_ENDPOINT_ADDRESS_9O::0x09	C:\user\DK_PIC\DK_USB.h	76;"	d	line:76
+USB_IDPRODUCT::0x000A	C:\user\DK_PIC\DK_USB.h	10;"	d	line:10
+USB_IDVENDOR::0x04D8	C:\user\DK_PIC\DK_USB.h	9;"	d	line:9
+USB_PID_TOKEN_IN::0x09	C:\user\DK_PIC\DK_USB.h	37;"	d	line:37
+USB_PID_TOKEN_OUT::0x01	C:\user\DK_PIC\DK_USB.h	36;"	d	line:36
+USB_PID_TOKEN_SETUP::0x0D	C:\user\DK_PIC\DK_USB.h	39;"	d	line:39
+USB_PID_TOKEN_SOF::0x05	C:\user\DK_PIC\DK_USB.h	38;"	d	line:38
+USB_SD_CONFIGURATION::0x02	C:\user\DK_PIC\DK_USB.h	29;"	d	line:29
+USB_SD_Configuration	C:\user\DK_PIC\DK_USB.h	133;"	t	line:133
+USB_SD_DEVICE::0x01	C:\user\DK_PIC\DK_USB.h	28;"	d	line:28
+USB_SD_Device	C:\user\DK_PIC\DK_USB.h	117;"	t	line:117
+USB_SD_ENDPOINT::0x05	C:\user\DK_PIC\DK_USB.h	32;"	d	line:32
+USB_SD_Endpoint	C:\user\DK_PIC\DK_USB.h	162;"	t	line:162
+USB_SD_INTERFACE::0x04	C:\user\DK_PIC\DK_USB.h	31;"	d	line:31
+USB_SD_Interface	C:\user\DK_PIC\DK_USB.h	148;"	t	line:148
+USB_SD_STRING::0x03	C:\user\DK_PIC\DK_USB.h	30;"	d	line:30
+USB_SR_CLEAR_FEATURE::0x01	C:\user\DK_PIC\DK_USB.h	15;"	d	line:15
+USB_SR_GET_CONFIGURATION::0x08	C:\user\DK_PIC\DK_USB.h	20;"	d	line:20
+USB_SR_GET_DESCRIPTOR::0x06	C:\user\DK_PIC\DK_USB.h	18;"	d	line:18
+USB_SR_GET_INTERFACE::0x0A	C:\user\DK_PIC\DK_USB.h	22;"	d	line:22
+USB_SR_GET_STATUS::0x00	C:\user\DK_PIC\DK_USB.h	14;"	d	line:14
+USB_SR_SET_ADDRESS::0x05	C:\user\DK_PIC\DK_USB.h	17;"	d	line:17
+USB_SR_SET_CONFIGURATION::0x09	C:\user\DK_PIC\DK_USB.h	21;"	d	line:21
+USB_SR_SET_DESCRIPTOR::0x07	C:\user\DK_PIC\DK_USB.h	19;"	d	line:19
+USB_SR_SET_FEATURE::0x03	C:\user\DK_PIC\DK_USB.h	16;"	d	line:16
+USB_SR_SET_INTERFACE::0x0B	C:\user\DK_PIC\DK_USB.h	23;"	d	line:23
+USB_SR_SYNCH_FRAME::0x0C	C:\user\DK_PIC\DK_USB.h	24;"	d	line:24
+USB_UNICODE_STRING_DESCRIPTOR::(Length)\	C:\user\DK_PIC\DK_USB.h	168;"	d	line:168
+Union	C:\user\DK_PIC\DK_USB.c	42;"	m	line:42	file:
+WAITING	C:\user\DK_PIC\DK_Core.h	51;"	e	line:51
+bAlternateSetting	C:\user\DK_PIC\DK_USB.h	142;"	m	line:142
+bConfigurationValue	C:\user\DK_PIC\DK_USB.h	129;"	m	line:129
+bDataInterface	C:\user\DK_PIC\DK_USB.h	198;"	m	line:198
+bDescriptorSubtype	C:\user\DK_PIC\DK_USB.h	184;"	m	line:184
+bDescriptorSubtype	C:\user\DK_PIC\DK_USB.h	196;"	m	line:196
+bDescriptorSubtype	C:\user\DK_PIC\DK_USB.h	208;"	m	line:208
+bDescriptorSubtype	C:\user\DK_PIC\DK_USB.h	219;"	m	line:219
+bDescriptorType	C:\user\DK_PIC\DK_USB.h	100;"	m	line:100
+bDescriptorType	C:\user\DK_PIC\DK_USB.h	124;"	m	line:124
+bDescriptorType	C:\user\DK_PIC\DK_USB.h	140;"	m	line:140
+bDescriptorType	C:\user\DK_PIC\DK_USB.h	155;"	m	line:155
+bDescriptorType	C:\user\DK_PIC\DK_USB.h	172;"	m	line:172
+bDescriptorType	C:\user\DK_PIC\DK_USB.h	183;"	m	line:183
+bDescriptorType	C:\user\DK_PIC\DK_USB.h	195;"	m	line:195
+bDescriptorType	C:\user\DK_PIC\DK_USB.h	207;"	m	line:207
+bDescriptorType	C:\user\DK_PIC\DK_USB.h	218;"	m	line:218
+bDeviceClass	C:\user\DK_PIC\DK_USB.h	104;"	m	line:104
+bDeviceProtocol	C:\user\DK_PIC\DK_USB.h	106;"	m	line:106
+bDeviceSubclass	C:\user\DK_PIC\DK_USB.h	105;"	m	line:105
+bEndpointAddress	C:\user\DK_PIC\DK_USB.h	156;"	m	line:156
+bFunctionLength	C:\user\DK_PIC\DK_USB.h	182;"	m	line:182
+bFunctionLength	C:\user\DK_PIC\DK_USB.h	194;"	m	line:194
+bFunctionLength	C:\user\DK_PIC\DK_USB.h	206;"	m	line:206
+bFunctionLength	C:\user\DK_PIC\DK_USB.h	217;"	m	line:217
+bInterfaceClass	C:\user\DK_PIC\DK_USB.h	144;"	m	line:144
+bInterfaceNumber	C:\user\DK_PIC\DK_USB.h	141;"	m	line:141
+bInterfaceProtocol	C:\user\DK_PIC\DK_USB.h	146;"	m	line:146
+bInterfaceSubClass	C:\user\DK_PIC\DK_USB.h	145;"	m	line:145
+bInterval	C:\user\DK_PIC\DK_USB.h	161;"	m	line:161
+bLength	C:\user\DK_PIC\DK_USB.c	624;"	l	line:624
+bLength	C:\user\DK_PIC\DK_USB.h	123;"	m	line:123
+bLength	C:\user\DK_PIC\DK_USB.h	139;"	m	line:139
+bLength	C:\user\DK_PIC\DK_USB.h	154;"	m	line:154
+bLength	C:\user\DK_PIC\DK_USB.h	171;"	m	line:171
+bLength	C:\user\DK_PIC\DK_USB.h	99;"	m	line:99
+bMasterInterface	C:\user\DK_PIC\DK_USB.h	220;"	m	line:220
+bMaxPacketSize0	C:\user\DK_PIC\DK_USB.h	107;"	m	line:107
+bMaxPower	C:\user\DK_PIC\DK_USB.h	132;"	m	line:132
+bNumConfigurations	C:\user\DK_PIC\DK_USB.h	116;"	m	line:116
+bNumEndpoints	C:\user\DK_PIC\DK_USB.h	143;"	m	line:143
+bNumInterfaces	C:\user\DK_PIC\DK_USB.h	128;"	m	line:128
+bRequest	C:\user\DK_PIC\DK_USB.h	240;"	m	line:240
+bSlaveInterface0	C:\user\DK_PIC\DK_USB.h	221;"	m	line:221
+bString	C:\user\DK_PIC\DK_USB.h	174;"	m	line:174
+bcdCDC	C:\user\DK_PIC\DK_USB.h	186;"	m	line:186
+bcdDevice	C:\user\DK_PIC\DK_USB.h	111;"	m	line:111
+bcdUSB	C:\user\DK_PIC\DK_USB.h	102;"	m	line:102
+bmAttributes	C:\user\DK_PIC\DK_USB.h	131;"	m	line:131
+bmAttributes	C:\user\DK_PIC\DK_USB.h	157;"	m	line:157
+bmCapabilities	C:\user\DK_PIC\DK_USB.h	197;"	m	line:197
+bmCapabilities	C:\user\DK_PIC\DK_USB.h	209;"	m	line:209
+bmRequestType	C:\user\DK_PIC\DK_USB.h	239;"	m	line:239
+iConfiguration	C:\user\DK_PIC\DK_USB.h	130;"	m	line:130
+iInterface	C:\user\DK_PIC\DK_USB.h	147;"	m	line:147
+iManufacturer	C:\user\DK_PIC\DK_USB.h	113;"	m	line:113
+iProduct	C:\user\DK_PIC\DK_USB.h	114;"	m	line:114
+iSerialNumber	C:\user\DK_PIC\DK_USB.h	115;"	m	line:115
+idProduct	C:\user\DK_PIC\DK_USB.h	110;"	m	line:110
+idVendor	C:\user\DK_PIC\DK_USB.h	109;"	m	line:109
+lfsr	C:\user\DK_PIC\DK_Specific.h	98;"	v	line:98
+main	C:\user\DK_PIC\main.c	310;"	f	line:310	signature:(void)
+pCurrentTaskTCB	C:\user\DK_PIC\DK_Core.c	19;"	v	line:19
+pRAM	C:\user\DK_PIC\DK_Specific.h	65;"	m	line:65
+pROM	C:\user\DK_PIC\DK_Specific.h	64;"	m	line:64
+pdCharacter	C:\user\DK_PIC\DK_USB.c	350;"	l	line:350
+pdPacketData	C:\user\DK_PIC\DK_USB.c	600;"	l	line:600
+wIndex	C:\user\DK_PIC\DK_USB.h	243;"	m	line:243
+wLength	C:\user\DK_PIC\DK_USB.h	244;"	m	line:244
+wMaxPacketSize	C:\user\DK_PIC\DK_USB.h	159;"	m	line:159
+wTotalLength	C:\user\DK_PIC\DK_USB.h	126;"	m	line:126
+wValue	C:\user\DK_PIC\DK_USB.h	242;"	m	line:242

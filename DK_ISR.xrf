@@ -1,0 +1,1042 @@
+MPASM  5.02                        DK_ISR.ASM   4-18-2007  13:50:30         PAGE  1
+
+                          MPASM Cross Reference File
+
+LABEL                            TYPE FILE NAME                  SOURCE FILE REFERENCES
+-----                            ---- ---------                  ----------------------
+
+A                                 C   P18F4550.INC                        47*
+ABDEN                             C   P18F4550.INC                       906*
+ABDOVF                            C   P18F4550.INC                       911*
+ACCESS                            C   P18F4550.INC                        48*
+ACKDT                             C   P18F4550.INC                       987*
+ACKEN                             C   P18F4550.INC                       986*
+ACKSTAT                           C   P18F4550.INC                       988*
+ACQT0                             C   P18F4550.INC                       951*
+ACQT1                             C   P18F4550.INC                       952*
+ACQT2                             C   P18F4550.INC                       953*
+ACTVIE                            C   P18F4550.INC                       281*
+ACTVIF                            C   P18F4550.INC                       271*
+ADCON0                            C   P18F4550.INC                       157*
+ADCON1                            C   P18F4550.INC                       156*
+ADCON2                            C   P18F4550.INC                       155*
+ADCS0                             C   P18F4550.INC                       948*
+ADCS1                             C   P18F4550.INC                       949*
+ADCS2                             C   P18F4550.INC                       950*
+ADDEN                             C   P18F4550.INC                       802*
+ADDR0                             C   P18F4550.INC                       237*  325*
+ADDR1                             C   P18F4550.INC                       238*  326*
+ADDR2                             C   P18F4550.INC                       239*  327*
+ADDR3                             C   P18F4550.INC                       240*  328*
+ADDR4                             C   P18F4550.INC                       329*
+ADDR5                             C   P18F4550.INC                       330*
+ADDR6                             C   P18F4550.INC                       331*
+ADEN                              C   P18F4550.INC                       808*
+ADFM                              C   P18F4550.INC                       954*
+ADIE                              C   P18F4550.INC                       723*
+ADIF                              C   P18F4550.INC                       734*
+ADIP                              C   P18F4550.INC                       745*
+ADON                              C   P18F4550.INC                       967*
+ADRES                             C   P18F4550.INC                       158*
+ADRESH                            C   P18F4550.INC                       160*
+ADRESL                            C   P18F4550.INC                       159*
+AN0                               C   P18F4550.INC                       481*
+AN1                               C   P18F4550.INC                       482*
+AN2                               C   P18F4550.INC                       483*
+AN3                               C   P18F4550.INC                       484*
+AN4                               C   P18F4550.INC                       486*
+BANKED                            C   P18F4550.INC                        49*
+BAUDCON                           C   P18F4550.INC                       145*
+BCLIE                             C   P18F4550.INC                       753*
+BCLIF                             C   P18F4550.INC                       766*
+BCLIP                             C   P18F4550.INC                       779*
+BF                                C   P18F4550.INC                      1004*
+BGST                              C   P18F4550.INC                      1089* 1113*
+BOR                               C   P18F4550.INC                      1063*
+BRG16                             C   P18F4550.INC                       908*
+BRGH                              C   P18F4550.INC                       814*
+BSR                               C   DK_ISR.ASM                          51.  210.
+                                      P18F4550.INC                       188*
+MPASM  5.02                        DK_ISR.ASM   4-18-2007  13:50:30         PAGE  2
+
+                          MPASM Cross Reference File
+
+LABEL                            TYPE FILE NAME                  SOURCE FILE REFERENCES
+-----                            ---- ---------                  ----------------------
+
+BTOEE                             C   P18F4550.INC                       302*
+BTOEF                             C   P18F4550.INC                       293*
+BTSEE                             C   P18F4550.INC                       303*
+BTSEF                             C   P18F4550.INC                       294*
+C                                 C   P18F4550.INC                      1150*
+C1INV                             C   P18F4550.INC                       842*
+C1OUT                             C   P18F4550.INC                       844*
+C2INV                             C   P18F4550.INC                       843*
+C2OUT                             C   P18F4550.INC                       845*
+CCP1                              C   P18F4550.INC                       526*
+CCP1AS                            C   P18F4550.INC                       141*
+CCP1CON                           C   P18F4550.INC                       150*
+CCP1DEL                           C   P18F4550.INC                       143*
+CCP1IE                            C   P18F4550.INC                       719*
+CCP1IF                            C   P18F4550.INC                       730*
+CCP1IP                            C   P18F4550.INC                       741*
+CCP1M0                            C   P18F4550.INC                       926*  937*
+CCP1M1                            C   P18F4550.INC                       927*  938*
+CCP1M2                            C   P18F4550.INC                       928*  939*
+CCP1M3                            C   P18F4550.INC                       929*  940*
+CCP2CON                           C   P18F4550.INC                       146*
+CCP2IE                            C   P18F4550.INC                       750*
+CCP2IF                            C   P18F4550.INC                       763*
+CCP2IP                            C   P18F4550.INC                       776*
+CCP2M0                            C   P18F4550.INC                       917*
+CCP2M1                            C   P18F4550.INC                       918*
+CCP2M2                            C   P18F4550.INC                       919*
+CCP2M3                            C   P18F4550.INC                       920*
+CCPR1                             C   P18F4550.INC                       152*
+CCPR1H                            C   P18F4550.INC                       154*
+CCPR1L                            C   P18F4550.INC                       153*
+CCPR2                             C   P18F4550.INC                       147*
+CCPR2H                            C   P18F4550.INC                       149*
+CCPR2L                            C   P18F4550.INC                       148*
+CFGS                              C   P18F4550.INC                       794*
+CHS0                              C   P18F4550.INC                       969*
+CHS1                              C   P18F4550.INC                       970*
+CHS2                              C   P18F4550.INC                       971*
+CHS3                              C   P18F4550.INC                       972*
+CIS                               C   P18F4550.INC                       841*
+CK                                C   P18F4550.INC                       532*
+CK1SPP                            C   P18F4550.INC                       564*
+CK2SPP                            C   P18F4550.INC                       565*
+CKE                               C   P18F4550.INC                      1010*
+CKP                               C   P18F4550.INC                       997*
+CLK1EN                            C   P18F4550.INC                       230*
+CLKCFG0                           C   P18F4550.INC                       232*
+CLKCFG1                           C   P18F4550.INC                       233*
+CM0                               C   P18F4550.INC                       838*
+CM1                               C   P18F4550.INC                       839*
+CM2                               C   P18F4550.INC                       840*
+CMCON                             C   P18F4550.INC                       139*
+MPASM  5.02                        DK_ISR.ASM   4-18-2007  13:50:30         PAGE  3
+
+                          MPASM Cross Reference File
+
+LABEL                            TYPE FILE NAME                  SOURCE FILE REFERENCES
+-----                            ---- ---------                  ----------------------
+
+CMIE                              C   P18F4550.INC                       756*
+CMIF                              C   P18F4550.INC                       769*
+CMIP                              C   P18F4550.INC                       782*
+CRC16EE                           C   P18F4550.INC                       300*
+CRC16EF                           C   P18F4550.INC                       291*
+CRC5EE                            C   P18F4550.INC                       299*
+CRC5EF                            C   P18F4550.INC                       290*
+CREN                              C   P18F4550.INC                       803*
+CSEN                              C   P18F4550.INC                       231*
+CSRC                              C   P18F4550.INC                       819*
+CVR0                              C   P18F4550.INC                       849*
+CVR1                              C   P18F4550.INC                       850*
+CVR2                              C   P18F4550.INC                       851*
+CVR3                              C   P18F4550.INC                       852*
+CVRCON                            C   P18F4550.INC                       140*
+CVREF                             C   P18F4550.INC                       853*
+CVREN                             C   P18F4550.INC                       856*
+CVROE                             C   P18F4550.INC                       855*
+CVRR                              C   P18F4550.INC                       854*
+CVRSS                             C   P18F4550.INC                       858*
+D                                 C   P18F4550.INC                      1028*
+DATA_ADDRESS                      C   P18F4550.INC                      1025*
+DC                                C   P18F4550.INC                      1151*
+DC1B0                             C   P18F4550.INC                       930*  941*
+DC1B1                             C   P18F4550.INC                       931*  942*
+DC2B0                             C   P18F4550.INC                       921*
+DC2B1                             C   P18F4550.INC                       922*
+DDRA                              M   P18F4550.INC                        55*  109.
+DDRB                              M   P18F4550.INC                        56*  111.
+DDRC                              M   P18F4550.INC                        57*  113.
+DDRD                              M   P18F4550.INC                        58*  115.
+DDRE                              M   P18F4550.INC                        59*  117.
+DFN8EE                            C   P18F4550.INC                       301*
+DFN8EF                            C   P18F4550.INC                       292*
+DIR                               C   P18F4550.INC                       308*
+DK_ISR                            E   DK_ISR.ASM                          16*  128.
+DK_ISR_SchedulerClock             A   DK_ISR.ASM                         226*
+DK_RestoreContext                 A   DK_ISR.ASM                         142*
+DK_RestoreContext_Continue        A   DK_ISR.ASM                         165*  174.
+DK_SaveContext                    A   DK_ISR.ASM                          45*  234.
+DK_SaveContext_Continue           A   DK_ISR.ASM                          96*  102.
+DK_Scheduler                      E   DK_ISR.ASM                          14*  136.
+DK_USB_ISR                        E   DK_ISR.ASM                          15*  132.
+DONE                              C   P18F4550.INC                       974*
+D_A                               C   P18F4550.INC                      1009*
+ECCP1AS                           C   P18F4550.INC                       142*
+ECCP1CON                          C   P18F4550.INC                       151*
+ECCP1DEL                          C   P18F4550.INC                       144*
+ECCPAS0                           C   P18F4550.INC                       866*  877*
+ECCPAS1                           C   P18F4550.INC                       867*  878*
+ECCPAS2                           C   P18F4550.INC                       868*  879*
+ECCPASE                           C   P18F4550.INC                       869*  880*
+MPASM  5.02                        DK_ISR.ASM   4-18-2007  13:50:30         PAGE  4
+
+                          MPASM Cross Reference File
+
+LABEL                            TYPE FILE NAME                  SOURCE FILE REFERENCES
+-----                            ---- ---------                  ----------------------
+
+EEADR                             C   P18F4550.INC                       129*
+EECON1                            C   P18F4550.INC                       126*
+EECON2                            C   P18F4550.INC                       127*
+EEDATA                            C   P18F4550.INC                       128*
+EEIE                              C   P18F4550.INC                       754*
+EEIF                              C   P18F4550.INC                       767*
+EEIP                              C   P18F4550.INC                       780*
+EEPGD                             C   P18F4550.INC                       795*
+ENDP0                             C   P18F4550.INC                       309*
+ENDP1                             C   P18F4550.INC                       310*
+ENDP2                             C   P18F4550.INC                       311*
+ENDP3                             C   P18F4550.INC                       312*
+EPCONDIS                          C   P18F4550.INC                       348*  356*  364*  372*  380*  388*  396*  404*  412*  420*
+                                                                         428*  436*  444*  452*  460*  468*
+EPHSHK                            C   P18F4550.INC                       349*  357*  365*  373*  381*  389*  397*  405*  413*  421*
+                                                                         429*  437*  445*  453*  461*  469*
+EPINEN                            C   P18F4550.INC                       346*  354*  362*  370*  378*  386*  394*  402*  410*  418*
+                                                                         426*  434*  442*  450*  458*  466*
+EPOUTEN                           C   P18F4550.INC                       347*  355*  363*  371*  379*  387*  395*  403*  411*  419*
+                                                                         427*  435*  443*  451*  459*  467*
+EPSTALL                           C   P18F4550.INC                       345*  353*  361*  369*  377*  385*  393*  401*  409*  417*
+                                                                         425*  433*  441*  449*  457*  465*
+FAST                              C   P18F4550.INC                        44*
+FERR                              C   P18F4550.INC                       801*
+FLTS                              C   P18F4550.INC                      1135*
+FREE                              C   P18F4550.INC                       793*
+FRM0                              C   P18F4550.INC                       252*
+FRM1                              C   P18F4550.INC                       253*
+FRM10                             C   P18F4550.INC                       265*
+FRM2                              C   P18F4550.INC                       254*
+FRM3                              C   P18F4550.INC                       255*
+FRM4                              C   P18F4550.INC                       256*
+FRM5                              C   P18F4550.INC                       257*
+FRM6                              C   P18F4550.INC                       258*
+FRM7                              C   P18F4550.INC                       259*
+FRM8                              C   P18F4550.INC                       263*
+FRM9                              C   P18F4550.INC                       264*
+FSEN                              C   P18F4550.INC                       337*
+FSR0                              C   P18F4550.INC                        40*
+FSR0H                             C   DK_ISR.ASM                          56.  115.  148.  206.
+                                      P18F4550.INC                       198*
+FSR0L                             C   DK_ISR.ASM                          54.  114.  147.  155.  156.  161.  207.
+                                      P18F4550.INC                       197*
+FSR1                              C   P18F4550.INC                        41*
+FSR1H                             C   DK_ISR.ASM                         117.  150.
+                                      P18F4550.INC                       190*
+FSR1L                             C   DK_ISR.ASM                         116.  149.
+                                      P18F4550.INC                       189*
+FSR2                              C   P18F4550.INC                        42*
+FSR2H                             C   DK_ISR.ASM                          53.  208.
+                                      P18F4550.INC                       182*
+FSR2L                             C   DK_ISR.ASM                          52.  209.
+MPASM  5.02                        DK_ISR.ASM   4-18-2007  13:50:30         PAGE  5
+
+                          MPASM Cross Reference File
+
+LABEL                            TYPE FILE NAME                  SOURCE FILE REFERENCES
+-----                            ---- ---------                  ----------------------
+
+                                      P18F4550.INC                       181*
+GCEN                              C   P18F4550.INC                       989*
+GIE                               C   DK_ISR.ASM                         230.
+                                      P18F4550.INC                      1193*
+GIEH                              C   P18F4550.INC                      1200*
+GIEL                              C   P18F4550.INC                      1199*
+GO                                C   P18F4550.INC                       976*
+GO_DONE                           C   P18F4550.INC                       968*
+HLVDCON                           C   P18F4550.INC                       174*
+HLVDEN                            C   P18F4550.INC                      1095* 1119*
+HLVDIE                            C   P18F4550.INC                       759*
+HLVDIF                            C   P18F4550.INC                       772*
+HLVDIN                            C   P18F4550.INC                       493*
+HLVDIP                            C   P18F4550.INC                       785*
+HLVDL0                            C   P18F4550.INC                      1091* 1115*
+HLVDL1                            C   P18F4550.INC                      1092* 1116*
+HLVDL2                            C   P18F4550.INC                      1093* 1117*
+HLVDL3                            C   P18F4550.INC                      1094* 1118*
+I2C_DAT                           C   P18F4550.INC                      1016*
+I2C_READ                          C   P18F4550.INC                      1013*
+I2C_START                         C   P18F4550.INC                      1014*
+I2C_STOP                          C   P18F4550.INC                      1015*
+IDLEIE                            C   P18F4550.INC                       283*
+IDLEIF                            C   P18F4550.INC                       273*
+IDLEN                             C   P18F4550.INC                      1133*
+INDF0                             C   P18F4550.INC                       203*
+INDF1                             C   P18F4550.INC                       195*
+INDF2                             C   P18F4550.INC                       187*
+INT0                              C   P18F4550.INC                       506*
+INT0E                             C   P18F4550.INC                      1197*
+INT0F                             C   P18F4550.INC                      1195*
+INT0IE                            C   P18F4550.INC                      1190*
+INT0IF                            C   P18F4550.INC                      1187*
+INT1                              C   P18F4550.INC                       507*
+INT1E                             C   P18F4550.INC                      1167*
+INT1F                             C   P18F4550.INC                      1165*
+INT1IE                            C   P18F4550.INC                      1160*
+INT1IF                            C   P18F4550.INC                      1158*
+INT1IP                            C   P18F4550.INC                      1162*
+INT1P                             C   P18F4550.INC                      1169*
+INT2                              C   P18F4550.INC                       508*
+INT2E                             C   P18F4550.INC                      1168*
+INT2F                             C   P18F4550.INC                      1166*
+INT2IE                            C   P18F4550.INC                      1161*
+INT2IF                            C   P18F4550.INC                      1159*
+INT2IP                            C   P18F4550.INC                      1163*
+INT2P                             C   P18F4550.INC                      1170*
+INTCON                            C   DK_ISR.ASM                         124.  135.  215.  230.
+                                      P18F4550.INC                       206*
+INTCON2                           C   P18F4550.INC                       205*
+INTCON3                           C   P18F4550.INC                       204*
+INTEDG0                           C   P18F4550.INC                      1178*
+MPASM  5.02                        DK_ISR.ASM   4-18-2007  13:50:30         PAGE  6
+
+                          MPASM Cross Reference File
+
+LABEL                            TYPE FILE NAME                  SOURCE FILE REFERENCES
+-----                            ---- ---------                  ----------------------
+
+INTEDG1                           C   P18F4550.INC                      1177*
+INTEDG2                           C   P18F4550.INC                      1176*
+INTSRC                            C   P18F4550.INC                       713*
+IOFS                              C   P18F4550.INC                      1128*
+IPEN                              C   P18F4550.INC                      1068*
+IPR1                              C   P18F4550.INC                       122*
+IPR2                              C   P18F4550.INC                       125*
+IRCF0                             C   P18F4550.INC                      1130*
+IRCF1                             C   P18F4550.INC                      1131*
+IRCF2                             C   P18F4550.INC                      1132*
+IRVST                             C   P18F4550.INC                      1083* 1107*
+IVRST                             C   P18F4550.INC                      1098* 1122*
+LATA                              C   P18F4550.INC                       104*
+LATA0                             C   P18F4550.INC                       570*
+LATA1                             C   P18F4550.INC                       571*
+LATA2                             C   P18F4550.INC                       572*
+LATA3                             C   P18F4550.INC                       573*
+LATA4                             C   P18F4550.INC                       574*
+LATA5                             C   P18F4550.INC                       575*
+LATA6                             C   P18F4550.INC                       576*
+LATB                              C   P18F4550.INC                       105*
+LATB0                             C   P18F4550.INC                       580*
+LATB1                             C   P18F4550.INC                       581*
+LATB2                             C   P18F4550.INC                       582*
+LATB3                             C   P18F4550.INC                       583*
+LATB4                             C   P18F4550.INC                       584*
+LATB5                             C   P18F4550.INC                       585*
+LATB6                             C   P18F4550.INC                       586*
+LATB7                             C   P18F4550.INC                       587*
+LATC                              C   P18F4550.INC                       106*
+LATC0                             C   P18F4550.INC                       591*
+LATC1                             C   P18F4550.INC                       592*
+LATC2                             C   P18F4550.INC                       593*
+LATC6                             C   P18F4550.INC                       594*
+LATC7                             C   P18F4550.INC                       595*
+LATD                              C   P18F4550.INC                       107*
+LATD0                             C   P18F4550.INC                       599*
+LATD1                             C   P18F4550.INC                       600*
+LATD2                             C   P18F4550.INC                       601*
+LATD3                             C   P18F4550.INC                       602*
+LATD4                             C   P18F4550.INC                       603*
+LATD5                             C   P18F4550.INC                       604*
+LATD6                             C   P18F4550.INC                       605*
+LATD7                             C   P18F4550.INC                       606*
+LATE                              C   P18F4550.INC                       108*
+LATE0                             C   P18F4550.INC                       610*
+LATE1                             C   P18F4550.INC                       611*
+LATE2                             C   P18F4550.INC                       612*
+LVDCON                            C   P18F4550.INC                       175*
+LVDEN                             C   P18F4550.INC                      1082* 1106*
+LVDIE                             C   P18F4550.INC                       752*
+LVDIF                             C   P18F4550.INC                       765*
+MPASM  5.02                        DK_ISR.ASM   4-18-2007  13:50:30         PAGE  7
+
+                          MPASM Cross Reference File
+
+LABEL                            TYPE FILE NAME                  SOURCE FILE REFERENCES
+-----                            ---- ---------                  ----------------------
+
+LVDIN                             C   P18F4550.INC                       491*
+LVDIP                             C   P18F4550.INC                       778*
+LVDL0                             C   P18F4550.INC                      1078* 1102*
+LVDL1                             C   P18F4550.INC                      1079* 1103*
+LVDL2                             C   P18F4550.INC                      1080* 1104*
+LVDL3                             C   P18F4550.INC                      1081* 1105*
+LVV0                              C   P18F4550.INC                      1085* 1109*
+LVV1                              C   P18F4550.INC                      1086* 1110*
+LVV2                              C   P18F4550.INC                      1087* 1111*
+LVV3                              C   P18F4550.INC                      1088* 1112*
+N                                 C   P18F4550.INC                      1154*
+NOT_A                             C   P18F4550.INC                      1019*
+NOT_ADDRESS                       C   P18F4550.INC                      1022*
+NOT_BOR                           C   P18F4550.INC                      1055*
+NOT_DONE                          C   P18F4550.INC                       978*
+NOT_IPEN                          C   P18F4550.INC                      1061*
+NOT_PD                            C   P18F4550.INC                      1057*
+NOT_POR                           C   P18F4550.INC                      1056*
+NOT_RBPU                          C   P18F4550.INC                      1179*
+NOT_RI                            C   P18F4550.INC                      1059*
+NOT_T1SYNC                        C   P18F4550.INC                      1051*
+NOT_T3SYNC                        C   P18F4550.INC                       834*
+NOT_TO                            C   P18F4550.INC                      1058*
+NOT_W                             C   P18F4550.INC                      1018*
+NOT_WRITE                         C   P18F4550.INC                      1021*
+OERR                              C   P18F4550.INC                       800*
+OESPP                             C   P18F4550.INC                       566*
+OSC2                              C   P18F4550.INC                       487*
+OSCCON                            C   P18F4550.INC                       176*
+OSCFIE                            C   P18F4550.INC                       757*
+OSCFIF                            C   P18F4550.INC                       770*
+OSCFIP                            C   P18F4550.INC                       783*
+OSCTUNE                           C   P18F4550.INC                       119*
+OSTS                              C   P18F4550.INC                      1129*
+OV                                C   P18F4550.INC                      1153*
+P                                 C   P18F4550.INC                      1008*
+P1A                               C   P18F4550.INC                       531*
+P1M0                              C   P18F4550.INC                       932*  943*
+P1M1                              C   P18F4550.INC                       933*  944*
+PC                                C   P18F4550.INC                       215*
+PCFG0                             C   P18F4550.INC                       958*
+PCFG1                             C   P18F4550.INC                       959*
+PCFG2                             C   P18F4550.INC                       960*
+PCFG3                             C   P18F4550.INC                       961*
+PCL                               C   P18F4550.INC                       216*
+PCLATH                            C   P18F4550.INC                       217*
+PCLATU                            C   P18F4550.INC                       218*
+PD                                C   P18F4550.INC                      1065*
+PDC0                              C   P18F4550.INC                       884*  895*
+PDC1                              C   P18F4550.INC                       885*  896*
+PDC2                              C   P18F4550.INC                       886*  897*
+PDC3                              C   P18F4550.INC                       887*  898*
+MPASM  5.02                        DK_ISR.ASM   4-18-2007  13:50:30         PAGE  8
+
+                          MPASM Cross Reference File
+
+LABEL                            TYPE FILE NAME                  SOURCE FILE REFERENCES
+-----                            ---- ---------                  ----------------------
+
+PDC4                              C   P18F4550.INC                       888*  899*
+PDC5                              C   P18F4550.INC                       889*  900*
+PDC6                              C   P18F4550.INC                       890*  901*
+PEIE                              C   P18F4550.INC                      1192*
+PEN                               C   P18F4550.INC                       984*
+PGC                               C   P18F4550.INC                       511*
+PGD                               C   P18F4550.INC                       512*
+PGM                               C   P18F4550.INC                       510*
+PIDEE                             C   P18F4550.INC                       298*
+PIDEF                             C   P18F4550.INC                       289*
+PIE1                              C   P18F4550.INC                       120*
+PIE2                              C   P18F4550.INC                       123*
+PIR1                              C   P18F4550.INC                       121*
+PIR2                              C   DK_ISR.ASM                         127.  131.
+                                      P18F4550.INC                       124*
+PKTDIS                            C   P18F4550.INC                       319*
+PLUSW0                            C   P18F4550.INC                       199*
+PLUSW1                            C   P18F4550.INC                       191*
+PLUSW2                            C   P18F4550.INC                       183*
+POR                               C   P18F4550.INC                      1064*
+PORTA                             C   P18F4550.INC                        99*
+PORTB                             C   P18F4550.INC                       100*
+PORTC                             C   P18F4550.INC                       101*
+PORTD                             C   P18F4550.INC                       102*
+PORTE                             C   P18F4550.INC                       103*
+POSTDEC0                          C   P18F4550.INC                       201*
+POSTDEC1                          C   DK_ISR.ASM                         155.  156.  167.  169.  171.  177.  178.  179.  180.  181.
+                                                                         182.  183.  184.  185.  186.  187.  188.  189.  190.  191.
+                                                                         192.  193.  194.  195.  196.  197.  198.  199.  200.  201.
+                                                                         202.  203.  204.  205.  206.  207.  208.  209.  210.  211.
+                                                                         212.
+                                      P18F4550.INC                       193*
+POSTDEC2                          C   P18F4550.INC                       185*
+POSTINC0                          C   DK_ISR.ASM                         116.  117.  149.  150.
+                                      P18F4550.INC                       202*
+POSTINC1                          C   P18F4550.INC                       194*
+POSTINC2                          C   P18F4550.INC                       186*
+PPB0                              C   P18F4550.INC                       335*
+PPB1                              C   P18F4550.INC                       336*
+PPBI                              C   P18F4550.INC                       307*
+PPBRST                            C   P18F4550.INC                       321*
+PR2                               C   P18F4550.INC                       167*
+PREINC0                           C   P18F4550.INC                       200*
+PREINC1                           C   DK_ISR.ASM                          49.   50.   51.   52.   53.   54.   56.   57.   58.   59.
+                                                                          60.   61.   62.   63.   64.   65.   66.   67.   68.   69.
+                                                                          70.   71.   72.   73.   74.   75.   76.   77.   78.   79.
+                                                                          80.   81.   82.   83.   84.   85.   97.   98.   99.  109.
+                                                                         110.
+                                      P18F4550.INC                       192*
+PREINC2                           C   P18F4550.INC                       184*
+PROD                              C   P18F4550.INC                       207*
+PRODH                             C   DK_ISR.ASM                          62.  200.
+MPASM  5.02                        DK_ISR.ASM   4-18-2007  13:50:30         PAGE  9
+
+                          MPASM Cross Reference File
+
+LABEL                            TYPE FILE NAME                  SOURCE FILE REFERENCES
+-----                            ---- ---------                  ----------------------
+
+                                      P18F4550.INC                       209*
+PRODL                             C   DK_ISR.ASM                          61.   90.  109.  110.  162.  173.  201.
+                                      P18F4550.INC                       208*
+PRSEN                             C   P18F4550.INC                       891*  902*
+PSA                               C   P18F4550.INC                      1142*
+PSSAC0                            C   P18F4550.INC                       864*  875*
+PSSAC1                            C   P18F4550.INC                       865*  876*
+PSSBD0                            C   P18F4550.INC                       862*  873*
+PSSBD1                            C   P18F4550.INC                       863*  874*
+R                                 C   P18F4550.INC                      1027*
+RA0                               C   P18F4550.INC                       473*  616*
+RA1                               C   P18F4550.INC                       474*  617*
+RA2                               C   P18F4550.INC                       475*  618*
+RA3                               C   P18F4550.INC                       476*  619*
+RA4                               C   P18F4550.INC                       477*  620*
+RA5                               C   P18F4550.INC                       478*  621*
+RA6                               C   P18F4550.INC                       479*  622*
+RB0                               C   P18F4550.INC                       497*  636*
+RB1                               C   P18F4550.INC                       498*  637*
+RB2                               C   P18F4550.INC                       499*  638*
+RB3                               C   P18F4550.INC                       500*  639*
+RB4                               C   P18F4550.INC                       501*  640*
+RB5                               C   P18F4550.INC                       502*  641*
+RB6                               C   P18F4550.INC                       503*  642*
+RB7                               C   P18F4550.INC                       504*  643*
+RBIE                              C   P18F4550.INC                      1189*
+RBIF                              C   P18F4550.INC                      1186*
+RBIP                              C   P18F4550.INC                      1174*
+RBPU                              C   P18F4550.INC                      1182*
+RC0                               C   P18F4550.INC                       516*  658*
+RC1                               C   P18F4550.INC                       517*  659*
+RC2                               C   P18F4550.INC                       518*  660*
+RC4                               C   P18F4550.INC                       519*
+RC5                               C   P18F4550.INC                       520*
+RC6                               C   P18F4550.INC                       521*  661*
+RC7                               C   P18F4550.INC                       522*  662*
+RCEN                              C   P18F4550.INC                       985*
+RCIDL                             C   P18F4550.INC                       910*
+RCIE                              C   P18F4550.INC                       722*
+RCIF                              C   P18F4550.INC                       733*
+RCIP                              C   P18F4550.INC                       744*
+RCMT                              C   P18F4550.INC                       913*
+RCON                              C   P18F4550.INC                       172*
+RCREG                             C   P18F4550.INC                       133*
+RCSTA                             C   P18F4550.INC                       130*
+RD                                C   P18F4550.INC                       789*
+RD0                               C   P18F4550.INC                       538*  674*
+RD1                               C   P18F4550.INC                       539*  675*
+RD16                              C   P18F4550.INC                       830* 1049*
+RD2                               C   P18F4550.INC                       540*  676*
+RD3                               C   P18F4550.INC                       541*  677*
+RD4                               C   P18F4550.INC                       542*  678*
+MPASM  5.02                        DK_ISR.ASM   4-18-2007  13:50:30         PAGE 10
+
+                          MPASM Cross Reference File
+
+LABEL                            TYPE FILE NAME                  SOURCE FILE REFERENCES
+-----                            ---- ---------                  ----------------------
+
+RD5                               C   P18F4550.INC                       543*  679*
+RD6                               C   P18F4550.INC                       544*  680*
+RD7                               C   P18F4550.INC                       545*  681*
+RDPU                              C   P18F4550.INC                       562*
+RDSPP                             C   P18F4550.INC                       243*
+RE0                               C   P18F4550.INC                       558*  696*
+RE1                               C   P18F4550.INC                       559*  697*
+RE2                               C   P18F4550.INC                       560*  698*
+RE3                               C   P18F4550.INC                       561*
+READ_WRITE                        C   P18F4550.INC                      1024*
+RESUME                            C   P18F4550.INC                       317*
+RI                                C   P18F4550.INC                      1067*
+RSEN                              C   P18F4550.INC                       983*
+RX                                C   P18F4550.INC                       528*
+RX9                               C   P18F4550.INC                       805*
+RX9D                              C   P18F4550.INC                       799*
+R_W                               C   P18F4550.INC                      1006*
+S                                 C   P18F4550.INC                      1007*
+SBOREN                            C   P18F4550.INC                      1060*
+SCKP                              C   P18F4550.INC                       909*
+SCS0                              C   P18F4550.INC                      1126*
+SCS1                              C   P18F4550.INC                      1127*
+SE0                               C   P18F4550.INC                       320*
+SEN                               C   P18F4550.INC                       982*
+SENDB                             C   P18F4550.INC                       815*
+SMP                               C   P18F4550.INC                      1011*
+SOFIE                             C   P18F4550.INC                       285*
+SOFIF                             C   P18F4550.INC                       275*
+SPBRG                             C   P18F4550.INC                       134*
+SPBRGH                            C   P18F4550.INC                       135*
+SPEN                              C   P18F4550.INC                       806*
+SPP0                              C   P18F4550.INC                       547*
+SPP1                              C   P18F4550.INC                       548*
+SPP2                              C   P18F4550.INC                       549*
+SPP3                              C   P18F4550.INC                       550*
+SPP4                              C   P18F4550.INC                       551*
+SPP5                              C   P18F4550.INC                       552*
+SPP6                              C   P18F4550.INC                       553*
+SPP7                              C   P18F4550.INC                       554*
+SPPBUSY                           C   P18F4550.INC                       241*
+SPPCFG                            C   P18F4550.INC                        69*
+SPPCON                            C   P18F4550.INC                        71*
+SPPDATA                           C   P18F4550.INC                        68*
+SPPEN                             C   P18F4550.INC                       247*
+SPPEPS                            C   P18F4550.INC                        70*
+SPPIE                             C   P18F4550.INC                       724*
+SPPIF                             C   P18F4550.INC                       735*
+SPPIP                             C   P18F4550.INC                       746*
+SPPOWN                            C   P18F4550.INC                       248*
+SREN                              C   P18F4550.INC                       804*
+SSPADD                            C   P18F4550.INC                       164*
+SSPBUF                            C   P18F4550.INC                       165*
+MPASM  5.02                        DK_ISR.ASM   4-18-2007  13:50:30         PAGE 11
+
+                          MPASM Cross Reference File
+
+LABEL                            TYPE FILE NAME                  SOURCE FILE REFERENCES
+-----                            ---- ---------                  ----------------------
+
+SSPCON1                           C   P18F4550.INC                       162*
+SSPCON2                           C   P18F4550.INC                       161*
+SSPEN                             C   P18F4550.INC                       998*
+SSPIE                             C   P18F4550.INC                       720*
+SSPIF                             C   P18F4550.INC                       731*
+SSPIP                             C   P18F4550.INC                       742*
+SSPM0                             C   P18F4550.INC                       993*
+SSPM1                             C   P18F4550.INC                       994*
+SSPM2                             C   P18F4550.INC                       995*
+SSPM3                             C   P18F4550.INC                       996*
+SSPOV                             C   P18F4550.INC                       999*
+SSPSTAT                           C   P18F4550.INC                       163*
+STALLIE                           C   P18F4550.INC                       284*
+STALLIF                           C   P18F4550.INC                       274*
+STATUS                            C   DK_ISR.ASM                          50.  211.
+                                      P18F4550.INC                       180*
+STKFUL                            C   P18F4550.INC                      1210*
+STKPTR                            C   DK_ISR.ASM                          90.  101.  160.  166.
+                                      P18F4550.INC                       219*
+STKPTR0                           C   P18F4550.INC                      1204*
+STKPTR1                           C   P18F4550.INC                      1205*
+STKPTR2                           C   P18F4550.INC                      1206*
+STKPTR3                           C   P18F4550.INC                      1207*
+STKPTR4                           C   P18F4550.INC                      1208*
+STKUNF                            C   P18F4550.INC                      1209*
+SUSPND                            C   P18F4550.INC                       316*
+SWDTE                             C   P18F4550.INC                      1074*
+SWDTEN                            C   P18F4550.INC                      1072*
+SYNC                              C   P18F4550.INC                       816*
+T08BIT                            C   P18F4550.INC                      1145*
+T0CKI                             C   P18F4550.INC                       485*
+T0CON                             C   DK_ISR.ASM                         218.
+                                      P18F4550.INC                       177*
+T0CS                              C   P18F4550.INC                      1144*
+T0IE                              C   P18F4550.INC                      1198*
+T0IF                              C   P18F4550.INC                      1196*
+T0IP                              C   P18F4550.INC                      1181*
+T0PS0                             C   P18F4550.INC                      1139*
+T0PS1                             C   P18F4550.INC                      1140*
+T0PS2                             C   P18F4550.INC                      1141*
+T0SE                              C   P18F4550.INC                      1143*
+T13CKI                            C   P18F4550.INC                       530*
+T1CKPS0                           C   P18F4550.INC                      1046*
+T1CKPS1                           C   P18F4550.INC                      1047*
+T1CON                             C   P18F4550.INC                       169*
+T1OSCEN                           C   P18F4550.INC                      1045*
+T1OSI                             C   P18F4550.INC                       525*
+T1OSO                             C   P18F4550.INC                       524*
+T1RUN                             C   P18F4550.INC                      1048*
+T1SYNC                            C   P18F4550.INC                      1044*
+T2CKPS0                           C   P18F4550.INC                      1032*
+T2CKPS1                           C   P18F4550.INC                      1033*
+MPASM  5.02                        DK_ISR.ASM   4-18-2007  13:50:30         PAGE 12
+
+                          MPASM Cross Reference File
+
+LABEL                            TYPE FILE NAME                  SOURCE FILE REFERENCES
+-----                            ---- ---------                  ----------------------
+
+T2CON                             C   P18F4550.INC                       166*
+T2OUTPS0                          C   P18F4550.INC                      1035*
+T2OUTPS1                          C   P18F4550.INC                      1036*
+T2OUTPS2                          C   P18F4550.INC                      1037*
+T2OUTPS3                          C   P18F4550.INC                      1038*
+T3CCP1                            C   P18F4550.INC                       826*
+T3CCP2                            C   P18F4550.INC                       829*
+T3CKPS0                           C   P18F4550.INC                       827*
+T3CKPS1                           C   P18F4550.INC                       828*
+T3CON                             C   P18F4550.INC                       136*
+T3NSYNC                           C   P18F4550.INC                       832*
+T3SYNC                            C   P18F4550.INC                       825*
+TABLAT                            C   DK_ISR.ASM                          57.  205.
+                                      P18F4550.INC                       210*
+TBLPTR                            C   P18F4550.INC                       211*
+TBLPTRH                           C   DK_ISR.ASM                          59.  203.
+                                      P18F4550.INC                       213*
+TBLPTRL                           C   DK_ISR.ASM                          58.  204.
+                                      P18F4550.INC                       212*
+TBLPTRU                           C   DK_ISR.ASM                          60.  202.
+                                      P18F4550.INC                       214*
+TMR0H                             C   P18F4550.INC                       179*
+TMR0IE                            C   P18F4550.INC                      1191*
+TMR0IF                            C   DK_ISR.ASM                         124.  135.  215.
+                                      P18F4550.INC                      1188*
+TMR0IP                            C   P18F4550.INC                      1175*
+TMR0L                             C   P18F4550.INC                       178*
+TMR0ON                            C   P18F4550.INC                      1146*
+TMR1CS                            C   P18F4550.INC                      1043*
+TMR1H                             C   P18F4550.INC                       171*
+TMR1IE                            C   P18F4550.INC                       717*
+TMR1IF                            C   P18F4550.INC                       728*
+TMR1IP                            C   P18F4550.INC                       739*
+TMR1L                             C   P18F4550.INC                       170*
+TMR1ON                            C   P18F4550.INC                      1042*
+TMR2                              C   P18F4550.INC                       168*
+TMR2IE                            C   P18F4550.INC                       718*
+TMR2IF                            C   P18F4550.INC                       729*
+TMR2IP                            C   P18F4550.INC                       740*
+TMR2ON                            C   P18F4550.INC                      1034*
+TMR3CS                            C   P18F4550.INC                       824*
+TMR3H                             C   P18F4550.INC                       138*
+TMR3IE                            C   P18F4550.INC                       751*
+TMR3IF                            C   P18F4550.INC                       764*
+TMR3IP                            C   P18F4550.INC                       777*
+TMR3L                             C   P18F4550.INC                       137*
+TMR3ON                            C   P18F4550.INC                       823*
+TO                                C   P18F4550.INC                      1066*
+TOS                               C   P18F4550.INC                       220*
+TOSH                              C   DK_ISR.ASM                          98.  170.
+                                      P18F4550.INC                       222*
+TOSL                              C   DK_ISR.ASM                          97.  172.
+MPASM  5.02                        DK_ISR.ASM   4-18-2007  13:50:30         PAGE 13
+
+                          MPASM Cross Reference File
+
+LABEL                            TYPE FILE NAME                  SOURCE FILE REFERENCES
+-----                            ---- ---------                  ----------------------
+
+                                      P18F4550.INC                       221*
+TOSU                              C   DK_ISR.ASM                          99.  168.
+                                      P18F4550.INC                       223*
+TRISA                             C   P18F4550.INC                       109*  110*
+TRISA0                            C   P18F4550.INC                       626*
+TRISA1                            C   P18F4550.INC                       627*
+TRISA2                            C   P18F4550.INC                       628*
+TRISA3                            C   P18F4550.INC                       629*
+TRISA4                            C   P18F4550.INC                       630*
+TRISA5                            C   P18F4550.INC                       631*
+TRISA6                            C   P18F4550.INC                       632*
+TRISB                             C   P18F4550.INC                       111*  112*
+TRISB0                            C   P18F4550.INC                       647*
+TRISB1                            C   P18F4550.INC                       648*
+TRISB2                            C   P18F4550.INC                       649*
+TRISB3                            C   P18F4550.INC                       650*
+TRISB4                            C   P18F4550.INC                       651*
+TRISB5                            C   P18F4550.INC                       652*
+TRISB6                            C   P18F4550.INC                       653*
+TRISB7                            C   P18F4550.INC                       654*
+TRISC                             C   P18F4550.INC                       113*  114*
+TRISC0                            C   P18F4550.INC                       666*
+TRISC1                            C   P18F4550.INC                       667*
+TRISC2                            C   P18F4550.INC                       668*
+TRISC6                            C   P18F4550.INC                       669*
+TRISC7                            C   P18F4550.INC                       670*
+TRISD                             C   P18F4550.INC                       115*  116*
+TRISD0                            C   P18F4550.INC                       685*
+TRISD1                            C   P18F4550.INC                       686*
+TRISD2                            C   P18F4550.INC                       687*
+TRISD3                            C   P18F4550.INC                       688*
+TRISD4                            C   P18F4550.INC                       689*
+TRISD5                            C   P18F4550.INC                       690*
+TRISD6                            C   P18F4550.INC                       691*
+TRISD7                            C   P18F4550.INC                       692*
+TRISE                             C   P18F4550.INC                       117*  118*
+TRISE0                            C   P18F4550.INC                       702*
+TRISE1                            C   P18F4550.INC                       703*
+TRISE2                            C   P18F4550.INC                       704*
+TRMT                              C   P18F4550.INC                       813*
+TRNIE                             C   P18F4550.INC                       282*
+TRNIF                             C   P18F4550.INC                       272*
+TUN0                              C   P18F4550.INC                       708*
+TUN1                              C   P18F4550.INC                       709*
+TUN2                              C   P18F4550.INC                       710*
+TUN3                              C   P18F4550.INC                       711*
+TUN4                              C   P18F4550.INC                       712*
+TX                                C   P18F4550.INC                       527*
+TX9                               C   P18F4550.INC                       818*
+TX9D                              C   P18F4550.INC                       812*
+TXEN                              C   P18F4550.INC                       817*
+TXIE                              C   P18F4550.INC                       721*
+MPASM  5.02                        DK_ISR.ASM   4-18-2007  13:50:30         PAGE 14
+
+                          MPASM Cross Reference File
+
+LABEL                            TYPE FILE NAME                  SOURCE FILE REFERENCES
+-----                            ---- ---------                  ----------------------
+
+TXIF                              C   P18F4550.INC                       732*
+TXIP                              C   P18F4550.INC                       743*
+TXREG                             C   P18F4550.INC                       132*
+TXSTA                             C   P18F4550.INC                       131*
+UA                                C   P18F4550.INC                      1005*
+UADDR                             C   P18F4550.INC                        81*
+UCFG                              C   P18F4550.INC                        82*
+UCON                              C   P18F4550.INC                        80*
+UEIE                              C   P18F4550.INC                        78*
+UEIR                              C   P18F4550.INC                        77*
+UEP0                              C   P18F4550.INC                        83*
+UEP1                              C   P18F4550.INC                        84*
+UEP10                             C   P18F4550.INC                        93*
+UEP11                             C   P18F4550.INC                        94*
+UEP12                             C   P18F4550.INC                        95*
+UEP13                             C   P18F4550.INC                        96*
+UEP14                             C   P18F4550.INC                        97*
+UEP15                             C   P18F4550.INC                        98*
+UEP2                              C   P18F4550.INC                        85*
+UEP3                              C   P18F4550.INC                        86*
+UEP4                              C   P18F4550.INC                        87*
+UEP5                              C   P18F4550.INC                        88*
+UEP6                              C   P18F4550.INC                        89*
+UEP7                              C   P18F4550.INC                        90*
+UEP8                              C   P18F4550.INC                        91*
+UEP9                              C   P18F4550.INC                        92*
+UERRIE                            C   P18F4550.INC                       280*
+UERRIF                            C   P18F4550.INC                       270*
+UFRM                              C   P18F4550.INC                        72*
+UFRMH                             C   P18F4550.INC                        74*
+UFRML                             C   P18F4550.INC                        73*
+UIE                               C   P18F4550.INC                        76*
+UIR                               C   P18F4550.INC                        75*
+UOEMON                            C   P18F4550.INC                       340*
+UPUEN                             C   P18F4550.INC                       339*
+URSTIE                            C   P18F4550.INC                       279*
+URSTIF                            C   P18F4550.INC                       269*
+USBEN                             C   P18F4550.INC                       318*
+USBIE                             C   P18F4550.INC                       755*
+USBIF                             C   DK_ISR.ASM                         127.  131.
+                                      P18F4550.INC                       768*
+USBIP                             C   P18F4550.INC                       781*
+USTAT                             C   P18F4550.INC                        79*
+UTEYE                             C   P18F4550.INC                       341*
+UTRDIS                            C   P18F4550.INC                       338*
+VCFG0                             C   P18F4550.INC                       962*
+VCFG1                             C   P18F4550.INC                       963*
+VDIRMAG                           C   P18F4550.INC                      1096* 1120*
+VREFM                             C   P18F4550.INC                       489*
+VREFP                             C   P18F4550.INC                       490*
+W                                 C   P18F4550.INC                        46*
+WCOL                              C   P18F4550.INC                      1000*
+MPASM  5.02                        DK_ISR.ASM   4-18-2007  13:50:30         PAGE 15
+
+                          MPASM Cross Reference File
+
+LABEL                            TYPE FILE NAME                  SOURCE FILE REFERENCES
+-----                            ---- ---------                  ----------------------
+
+WDTCON                            C   P18F4550.INC                       173*
+WR                                C   P18F4550.INC                       790*
+WREG                              C   DK_ISR.ASM                          49.   94.  160.  162.  167.  169.  171.  212.
+                                      P18F4550.INC                       196*
+WREN                              C   P18F4550.INC                       791*
+WRERR                             C   P18F4550.INC                       792*
+WRSPP                             C   P18F4550.INC                       242*
+WS0                               C   P18F4550.INC                       226*
+WS1                               C   P18F4550.INC                       227*
+WS2                               C   P18F4550.INC                       228*
+WS3                               C   P18F4550.INC                       229*
+WUE                               C   P18F4550.INC                       907*
+Z                                 C   P18F4550.INC                      1152*
+_.code_00C2                       A   DK_ISR.ASM                         125*
+_BORV_0_2L                        C   P18F4550.INC                      1511*
+_BORV_1_2L                        C   P18F4550.INC                      1512*
+_BORV_2_2L                        C   P18F4550.INC                      1513*
+_BORV_3_2L                        C   P18F4550.INC                      1514*
+_BOR_OFF_2L                       C   P18F4550.INC                      1506*
+_BOR_ON_2L                        C   P18F4550.INC                      1509*
+_BOR_ON_ACTIVE_2L                 C   P18F4550.INC                      1508*
+_BOR_SOFT_2L                      C   P18F4550.INC                      1507*
+_CCP2MX_OFF_3H                    C   P18F4550.INC                      1550*
+_CCP2MX_ON_3H                     C   P18F4550.INC                      1551*
+_CONFIG1H                         C   P18F4550.INC                      1452*
+_CONFIG1L                         C   P18F4550.INC                      1451*
+_CONFIG2H                         C   P18F4550.INC                      1454*
+_CONFIG2L                         C   P18F4550.INC                      1453*
+_CONFIG3H                         C   P18F4550.INC                      1455*
+_CONFIG4L                         C   P18F4550.INC                      1456*
+_CONFIG5H                         C   P18F4550.INC                      1458*
+_CONFIG5L                         C   P18F4550.INC                      1457*
+_CONFIG6H                         C   P18F4550.INC                      1460*
+_CONFIG6L                         C   P18F4550.INC                      1459*
+_CONFIG7H                         C   P18F4550.INC                      1462*
+_CONFIG7L                         C   P18F4550.INC                      1461*
+_CP0_OFF_5L                       C   P18F4550.INC                      1571*
+_CP0_ON_5L                        C   P18F4550.INC                      1570*
+_CP1_OFF_5L                       C   P18F4550.INC                      1574*
+_CP1_ON_5L                        C   P18F4550.INC                      1573*
+_CP2_OFF_5L                       C   P18F4550.INC                      1577*
+_CP2_ON_5L                        C   P18F4550.INC                      1576*
+_CP3_OFF_5L                       C   P18F4550.INC                      1580*
+_CP3_ON_5L                        C   P18F4550.INC                      1579*
+_CPB_OFF_5H                       C   P18F4550.INC                      1584*
+_CPB_ON_5H                        C   P18F4550.INC                      1583*
+_CPD_OFF_5H                       C   P18F4550.INC                      1587*
+_CPD_ON_5H                        C   P18F4550.INC                      1586*
+_CPUDIV_OSC1_PLL2_1L              C   P18F4550.INC                      1474*
+_CPUDIV_OSC2_PLL3_1L              C   P18F4550.INC                      1475*
+_CPUDIV_OSC3_PLL4_1L              C   P18F4550.INC                      1476*
+_CPUDIV_OSC4_PLL6_1L              C   P18F4550.INC                      1477*
+MPASM  5.02                        DK_ISR.ASM   4-18-2007  13:50:30         PAGE 16
+
+                          MPASM Cross Reference File
+
+LABEL                            TYPE FILE NAME                  SOURCE FILE REFERENCES
+-----                            ---- ---------                  ----------------------
+
+_DEBUG_OFF_4L                     C   P18F4550.INC                      1567*
+_DEBUG_ON_4L                      C   P18F4550.INC                      1566*
+_DEVID1                           C   P18F4550.INC                      1630*
+_DEVID2                           C   P18F4550.INC                      1631*
+_EBTR0_OFF_7L                     C   P18F4550.INC                      1614*
+_EBTR0_ON_7L                      C   P18F4550.INC                      1613*
+_EBTR1_OFF_7L                     C   P18F4550.INC                      1617*
+_EBTR1_ON_7L                      C   P18F4550.INC                      1616*
+_EBTR2_OFF_7L                     C   P18F4550.INC                      1620*
+_EBTR2_ON_7L                      C   P18F4550.INC                      1619*
+_EBTR3_OFF_7L                     C   P18F4550.INC                      1623*
+_EBTR3_ON_7L                      C   P18F4550.INC                      1622*
+_EBTRB_OFF_7H                     C   P18F4550.INC                      1627*
+_EBTRB_ON_7H                      C   P18F4550.INC                      1626*
+_FCMEM_OFF_1H                     C   P18F4550.INC                      1496*
+_FCMEM_ON_1H                      C   P18F4550.INC                      1497*
+_FOSC_ECIO_EC_1H                  C   P18F4550.INC                      1485*
+_FOSC_ECPLLIO_EC_1H               C   P18F4550.INC                      1487*
+_FOSC_ECPLL_EC_1H                 C   P18F4550.INC                      1488*
+_FOSC_EC_EC_1H                    C   P18F4550.INC                      1486*
+_FOSC_HSPLL_HS_1H                 C   P18F4550.INC                      1494*
+_FOSC_HS_1H                       C   P18F4550.INC                      1493*
+_FOSC_INTOSCIO_EC_1H              C   P18F4550.INC                      1489*
+_FOSC_INTOSC_EC_1H                C   P18F4550.INC                      1490*
+_FOSC_INTOSC_HS_1H                C   P18F4550.INC                      1492*
+_FOSC_INTOSC_XT_1H                C   P18F4550.INC                      1491*
+_FOSC_XTPLL_XT_1H                 C   P18F4550.INC                      1484*
+_FOSC_XT_XT_1H                    C   P18F4550.INC                      1483*
+_ICPRT_OFF_4L                     C   P18F4550.INC                      1560*
+_ICPRT_ON_4L                      C   P18F4550.INC                      1561*
+_IDLOC0                           C   P18F4550.INC                      1633*
+_IDLOC1                           C   P18F4550.INC                      1634*
+_IDLOC2                           C   P18F4550.INC                      1635*
+_IDLOC3                           C   P18F4550.INC                      1636*
+_IDLOC4                           C   P18F4550.INC                      1637*
+_IDLOC5                           C   P18F4550.INC                      1638*
+_IDLOC6                           C   P18F4550.INC                      1639*
+_IDLOC7                           C   P18F4550.INC                      1640*
+_IESO_OFF_1H                      C   P18F4550.INC                      1499*
+_IESO_ON_1H                       C   P18F4550.INC                      1500*
+_LPT1OSC_OFF_3H                   C   P18F4550.INC                      1544*
+_LPT1OSC_ON_3H                    C   P18F4550.INC                      1545*
+_LVP_OFF_4L                       C   P18F4550.INC                      1557*
+_LVP_ON_4L                        C   P18F4550.INC                      1558*
+_MCLRE_OFF_3H                     C   P18F4550.INC                      1541*
+_MCLRE_ON_3H                      C   P18F4550.INC                      1542*
+_PBADEN_OFF_3H                    C   P18F4550.INC                      1547*
+_PBADEN_ON_3H                     C   P18F4550.INC                      1548*
+_PLLDIV_10_1L                     C   P18F4550.INC                      1471*
+_PLLDIV_12_1L                     C   P18F4550.INC                      1472*
+_PLLDIV_1_1L                      C   P18F4550.INC                      1465*
+_PLLDIV_2_1L                      C   P18F4550.INC                      1466*
+MPASM  5.02                        DK_ISR.ASM   4-18-2007  13:50:30         PAGE 17
+
+                          MPASM Cross Reference File
+
+LABEL                            TYPE FILE NAME                  SOURCE FILE REFERENCES
+-----                            ---- ---------                  ----------------------
+
+_PLLDIV_3_1L                      C   P18F4550.INC                      1467*
+_PLLDIV_4_1L                      C   P18F4550.INC                      1468*
+_PLLDIV_5_1L                      C   P18F4550.INC                      1469*
+_PLLDIV_6_1L                      C   P18F4550.INC                      1470*
+_PWRT_OFF_2L                      C   P18F4550.INC                      1504*
+_PWRT_ON_2L                       C   P18F4550.INC                      1503*
+_STVREN_OFF_4L                    C   P18F4550.INC                      1554*
+_STVREN_ON_4L                     C   P18F4550.INC                      1555*
+_USBDIV_1_1L                      C   P18F4550.INC                      1479*
+_USBDIV_2_1L                      C   P18F4550.INC                      1480*
+_VREGEN_OFF_2L                    C   P18F4550.INC                      1516*
+_VREGEN_ON_2L                     C   P18F4550.INC                      1517*
+_WDTPS_1024_2H                    C   P18F4550.INC                      1533*
+_WDTPS_128_2H                     C   P18F4550.INC                      1530*
+_WDTPS_16384_2H                   C   P18F4550.INC                      1537*
+_WDTPS_16_2H                      C   P18F4550.INC                      1527*
+_WDTPS_1_2H                       C   P18F4550.INC                      1523*
+_WDTPS_2048_2H                    C   P18F4550.INC                      1534*
+_WDTPS_256_2H                     C   P18F4550.INC                      1531*
+_WDTPS_2_2H                       C   P18F4550.INC                      1524*
+_WDTPS_32768_2H                   C   P18F4550.INC                      1538*
+_WDTPS_32_2H                      C   P18F4550.INC                      1528*
+_WDTPS_4096_2H                    C   P18F4550.INC                      1535*
+_WDTPS_4_2H                       C   P18F4550.INC                      1525*
+_WDTPS_512_2H                     C   P18F4550.INC                      1532*
+_WDTPS_64_2H                      C   P18F4550.INC                      1529*
+_WDTPS_8192_2H                    C   P18F4550.INC                      1536*
+_WDTPS_8_2H                       C   P18F4550.INC                      1526*
+_WDT_OFF_2H                       C   P18F4550.INC                      1520*
+_WDT_ON_2H                        C   P18F4550.INC                      1521*
+_WRT0_OFF_6L                      C   P18F4550.INC                      1591*
+_WRT0_ON_6L                       C   P18F4550.INC                      1590*
+_WRT1_OFF_6L                      C   P18F4550.INC                      1594*
+_WRT1_ON_6L                       C   P18F4550.INC                      1593*
+_WRT2_OFF_6L                      C   P18F4550.INC                      1597*
+_WRT2_ON_6L                       C   P18F4550.INC                      1596*
+_WRT3_OFF_6L                      C   P18F4550.INC                      1600*
+_WRT3_ON_6L                       C   P18F4550.INC                      1599*
+_WRTB_OFF_6H                      C   P18F4550.INC                      1604*
+_WRTB_ON_6H                       C   P18F4550.INC                      1603*
+_WRTC_OFF_6H                      C   P18F4550.INC                      1607*
+_WRTC_ON_6H                       C   P18F4550.INC                      1606*
+_WRTD_OFF_6H                      C   P18F4550.INC                      1610*
+_WRTD_ON_6H                       C   P18F4550.INC                      1609*
+_XINST_OFF_4L                     C   P18F4550.INC                      1563*
+_XINST_ON_4L                      C   P18F4550.INC                      1564*
+__18F4550                         V   DK_ISR.ASM                           0*
+                                      P18F4550.INC                        33.
+__AARGB0                          E   DK_ISR.ASM                          18*   63.  199.
+__AARGB1                          E   DK_ISR.ASM                          19*   64.  198.
+__AARGB2                          E   DK_ISR.ASM                          20*   65.  197.
+__AARGB3                          E   DK_ISR.ASM                          21*   66.  196.
+MPASM  5.02                        DK_ISR.ASM   4-18-2007  13:50:30         PAGE 18
+
+                          MPASM Cross Reference File
+
+LABEL                            TYPE FILE NAME                  SOURCE FILE REFERENCES
+-----                            ---- ---------                  ----------------------
+
+__AARGB4                          E   DK_ISR.ASM                          22*   68.  194.
+__AARGB5                          E   DK_ISR.ASM                          23*   69.  193.
+__AARGB6                          E   DK_ISR.ASM                          24*   70.  192.
+__AARGB7                          E   DK_ISR.ASM                          25*   71.  191.
+__AEXP                            E   DK_ISR.ASM                          30*   76.  186.
+__BARGB0                          E   DK_ISR.ASM                          26*   72.  190.
+__BARGB1                          E   DK_ISR.ASM                          27*   73.  189.
+__BARGB2                          E   DK_ISR.ASM                          28*   74.  188.
+__BARGB3                          E   DK_ISR.ASM                          29*   75.  187.
+__BEXP                            E   DK_ISR.ASM                          31*   77.  185.
+__FPFLAGS                         E   DK_ISR.ASM                          32*   67.  195.
+__REMB0                           E   DK_ISR.ASM                          37*   82.  180.
+__REMB1                           E   DK_ISR.ASM                          38*   83.  179.
+__REMB2                           E   DK_ISR.ASM                          39*   84.  178.
+__REMB3                           E   DK_ISR.ASM                          40*   85.  177.
+__TEMPB0                          E   DK_ISR.ASM                          33*   78.  184.
+__TEMPB1                          E   DK_ISR.ASM                          34*   79.  183.
+__TEMPB2                          E   DK_ISR.ASM                          35*   80.  182.
+__TEMPB3                          E   DK_ISR.ASM                          36*   81.  181.
+pCurrentTaskTCB                   E   DK_ISR.ASM                          17*  114.  115.  147.  148.
+
+
+LABEL TYPES
+-----------
+A  Address 
+C  Constant
+E  External
+M  Macro   
+S  Segment 
+U  Unknown 
+V  Variable
+X  Other   
